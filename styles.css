@@ -19,7 +19,9 @@ body{
 .map{
   width: 700px;
 }
-
+a {
+  text-decoration: none;
+}
 country{
   font-family: "Cinzel",serif;
   display: block;
