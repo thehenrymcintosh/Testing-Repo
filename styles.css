@@ -73,3 +73,70 @@ country:hover{
   align-items: center;
   justify-content: space-between;
 }
+
+.me-container{
+  position: relative;
+  display: block;
+  left: 425px;
+  top: -177px;
+  width: 0;
+  height:0;
+}
+.uk-container{
+  position: relative;
+  display: block;
+  left: 331px;
+  top: -243px;
+  width: 0;
+  height:0;
+}
+.au-container{
+  position: relative;
+  display: block;
+  left: 603px;
+  top: -90px;
+  width: 0;
+  height:0;
+}
+.sea-container{
+  position: relative;
+  display: block;
+  left: 550px;
+  top: -192px;
+  width: 0;
+  height:0;
+}
+.sea-container span{
+  left:-50px;
+  top:-50px;
+}
+.au-container span{
+  left: -100px;
+  top: -100px;
+}
+.me-container span{
+  left:-100px;
+}
+.locator span.hover{
+  left:0;
+  top:0;
+}
+.locator span{
+  position: absolute;
+  display: block;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  border: 3px solid transparent;
+  background:transparent;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+}
+
+.locator span.hover{
+  border: 3px #092d61 solid;
+  background: white;
+  transition: all 0.2s ease-in-out;
+  height: 30px;
+  width: 30px;
+}
